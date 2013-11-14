@@ -10,5 +10,5 @@ plus_secret = numbers_secret.gsub(" ", "+")
 
 dance_secret = plus_secret.insert(3, "_WANNA_DANCE?_")
 
-eighty_secret = dance_secret.ljust(80, 't.o.o.m.u.c.h.')
-puts eighty_secret
+seventy_secret = dance_secret.ljust(70, 't.o.o.m.u.c.h.')
+puts seventy_secret
