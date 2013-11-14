@@ -5,4 +5,7 @@ reversed_secret = secret.reverse
 downcase_secret = reversed_secret.downcase
 
 numbers_secret = downcase_secret.gsub("s", "8")
-puts numbers_secret
+
+plus_secret = numbers_secret.gsub(" ", "+")
+
+puts plus_secret
