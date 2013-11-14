@@ -8,4 +8,7 @@ numbers_secret = downcase_secret.gsub("s", "8")
 
 plus_secret = numbers_secret.gsub(" ", "+")
 
-puts plus_secret
+dance_secret = plus_secret.insert(3, "_WANNA_DANCE?_")
+
+eighty_secret = dance_secret.ljust(80, 't.o.o.m.u.c.h.')
+puts eighty_secret
